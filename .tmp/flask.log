@@ -1,0 +1,64 @@
+ * Serving Flask app 'UI.app'
+ * Debug mode: off
+[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+[33mPress CTRL+C to quit[0m
+127.0.0.1 - - [04/Oct/2025 20:50:30] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [04/Oct/2025 20:50:30] "GET /static/app.js HTTP/1.1" 200 -
+127.0.0.1 - - [04/Oct/2025 20:50:30] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [04/Oct/2025 20:50:59] "POST /transcribe HTTP/1.1" 200 -
+127.0.0.1 - - [04/Oct/2025 20:51:13] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [04/Oct/2025 20:51:13] "GET /static/style.css HTTP/1.1" 200 -
+127.0.0.1 - - [04/Oct/2025 20:51:13] "GET /static/app.js HTTP/1.1" 200 -
+127.0.0.1 - - [04/Oct/2025 20:51:13] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+127.0.0.1 - - [04/Oct/2025 20:51:45] "POST /transcribe HTTP/1.1" 200 -
+127.0.0.1 - - [05/Oct/2025 21:14:31] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [05/Oct/2025 21:14:31] "GET /static/style.css HTTP/1.1" 200 -
+127.0.0.1 - - [05/Oct/2025 21:14:31] "GET /static/app.js HTTP/1.1" 200 -
+127.0.0.1 - - [05/Oct/2025 21:14:32] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+127.0.0.1 - - [07/Oct/2025 11:01:43] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [07/Oct/2025 11:01:43] "GET /static/style.css HTTP/1.1" 200 -
+127.0.0.1 - - [07/Oct/2025 11:01:43] "GET /static/app.js HTTP/1.1" 200 -
+127.0.0.1 - - [07/Oct/2025 11:01:43] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+127.0.0.1 - - [07/Oct/2025 11:05:12] "POST /transcribe HTTP/1.1" 200 -
+127.0.0.1 - - [07/Oct/2025 11:09:32] "POST /transcribe HTTP/1.1" 200 -
+127.0.0.1 - - [07/Oct/2025 11:54:16] "POST /transcribe HTTP/1.1" 200 -
+127.0.0.1 - - [07/Oct/2025 15:37:06] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [07/Oct/2025 15:37:07] "GET /static/style.css HTTP/1.1" 200 -
+127.0.0.1 - - [07/Oct/2025 15:37:07] "GET /static/app.js HTTP/1.1" 200 -
+127.0.0.1 - - [07/Oct/2025 15:37:08] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+127.0.0.1 - - [07/Oct/2025 16:00:08] "GET /static/style.css HTTP/1.1" 200 -
+127.0.0.1 - - [07/Oct/2025 16:00:08] "GET /static/app.js HTTP/1.1" 200 -
+127.0.0.1 - - [07/Oct/2025 16:00:09] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+127.0.0.1 - - [08/Oct/2025 15:11:51] "GET /static/app.js HTTP/1.1" 200 -
+127.0.0.1 - - [08/Oct/2025 15:11:51] "GET /static/style.css HTTP/1.1" 200 -
+127.0.0.1 - - [08/Oct/2025 15:11:52] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+127.0.0.1 - - [09/Oct/2025 14:08:13] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [09/Oct/2025 14:08:13] "GET /static/style.css HTTP/1.1" 200 -
+127.0.0.1 - - [09/Oct/2025 16:21:55] "GET /static/style.css HTTP/1.1" 200 -
+127.0.0.1 - - [09/Oct/2025 16:21:56] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+127.0.0.1 - - [10/Oct/2025 11:51:17] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [10/Oct/2025 11:51:17] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+127.0.0.1 - - [10/Oct/2025 12:18:51] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [10/Oct/2025 12:18:51] "GET /static/style.css HTTP/1.1" 200 -
+127.0.0.1 - - [10/Oct/2025 13:49:44] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [10/Oct/2025 13:49:44] "GET /static/style.css HTTP/1.1" 200 -
+127.0.0.1 - - [10/Oct/2025 13:49:44] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+127.0.0.1 - - [10/Oct/2025 13:51:29] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [10/Oct/2025 13:51:29] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+127.0.0.1 - - [10/Oct/2025 13:57:10] "GET /static/style.css HTTP/1.1" 200 -
+127.0.0.1 - - [11/Oct/2025 09:12:27] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [11/Oct/2025 09:12:28] "GET /static/style.css HTTP/1.1" 200 -
+127.0.0.1 - - [11/Oct/2025 12:26:43] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [11/Oct/2025 12:26:44] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+127.0.0.1 - - [11/Oct/2025 12:59:53] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [11/Oct/2025 12:59:55] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+127.0.0.1 - - [11/Oct/2025 13:35:19] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [11/Oct/2025 13:35:19] "GET /static/style.css HTTP/1.1" 200 -
+127.0.0.1 - - [11/Oct/2025 13:35:20] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+127.0.0.1 - - [11/Oct/2025 15:55:40] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [11/Oct/2025 15:55:47] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+127.0.0.1 - - [11/Oct/2025 21:05:28] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [11/Oct/2025 21:05:29] "GET /static/style.css HTTP/1.1" 200 -
+127.0.0.1 - - [11/Oct/2025 21:05:29] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+127.0.0.1 - - [11/Oct/2025 21:26:49] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -

@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Whisper Terminal UI</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+  </head>
+  <body class="terminal">
+    <div class="terminal-window">
+      <header class="terminal-header">
+        <span class="prompt">>>> whisper-ui</span>
+      </header>
+      <main class="terminal-body">
+        <form id="transcribe-form" class="terminal-form">
+          <label class="field">
+            <span class="field-label">Audio file path</span>
+            <input id="audio-path" name="path" type="text" placeholder="/absolute/path/to/audio.mp3" required>
+          </label>
+
+          <label class="field">
+            <span class="field-label">Model</span>
+            <select id="model-select" name="model">
+              {% for key, model_path in models.items() %}
+                <option value="{{ key }}">{{ key }} ({{ model_path.name }})</option>
+              {% endfor %}
+            </select>
+          </label>
+
+          <label class="field">
+            <span class="field-label">Language</span>
+            <select id="language-select" name="language">
+              {% for code, label in languages %}
+                <option value="{{ code }}">{{ label }}{% if code != 'auto' %} [{{ code }}]{% endif %}</option>
+              {% endfor %}
+            </select>
+          </label>
+
+          <button type="submit" class="submit-btn">transcribe</button>
+        </form>
+
+        <section class="output">
+          <label for="transcript" class="field-label">Transcript</label>
+          <textarea id="transcript" readonly placeholder="Results will appear here..."></textarea>
+        </section>
+
+        <section id="status" class="status-line"></section>
+      </main>
+    </div>
+
+    <script src="{{ url_for('static', filename='app.js') }}"></script>
+  </body>
+</html>
